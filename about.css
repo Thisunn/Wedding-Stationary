@@ -1,0 +1,92 @@
+body{
+  background-color: #faebd7;
+}
+ul{
+  text-align: center;
+  text-decoration: none;
+}
+.tag{
+  text-decoration: none;
+  color: rgb(251, 246, 246);
+  margin-right: 10px;
+  transition: ease;
+  font-size: 20px;
+  
+}
+.nav-menu{
+  background-image: url(images/pexels-vidal-balielo-jr-1682538.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.text {
+  font-size: 17px;
+  padding-left: 20px;
+  width: 400px;
+  font-family: sans-serif;
+}
+.pic{
+  margin-top: 50px;
+  border-radius: 200px;
+}
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+  font-family: sans-serif;
+}
+.footer div{
+  text-align: center;
+
+}
+.col-2{
+  flex-grow:2l
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing:1px ;
+}
+.footer-a{
+  text-decoration: none;
+  color: white;
+}
+.col-1 a{
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
